@@ -1,0 +1,96 @@
+body {
+    margin: 10%;
+    padding: 0px;
+}
+.clearfix {
+    clear: both;
+}
+.main {
+    background-color: rgb(255, 255, 255);
+    box-sizing:border-box;
+    height: 1150px;
+    width: 800px;
+    box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+}
+.main:hover {
+    transform: translateY(5px);
+    box-shadow:  0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+.top-section  {
+    background-color: #1C3144;
+    text-align: center;
+    padding: 20px;
+
+}
+.top-section h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 10px;
+
+}
+.top-section p {
+    color: #779BE7;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 10px;
+}
+.col-div-4 {
+    width: 35%;
+    float: left;
+}
+.col-div-8 {
+    width: 62%;
+    float: left;
+}
+.social {
+    font-size: 1rem;
+}
+.gmail {
+    display: flex;
+}
+.gmail-icon {
+    margin-right: 5px;
+}
+.gmail p {
+    margin-top: 1%;
+    font-weight: 500;
+    font-family: 'News Cycle', sans-serif;
+}
+.port {
+    display: flex;
+}
+.port-icon {
+    margin-right: 10px;
+    width: 20px;
+}
+.port p {
+    margin-top: 1%;
+    font-weight: 500;
+    font-family: 'News Cycle', sans-serif;
+}
+
+.line {
+    border-left: 1px solid rgb(2, 2, 2);
+    height: 850px;
+    width: 2%;
+    margin-top: 30px;
+    float: left;
+}
+.content-box {
+    padding: 20px;
+}
+.languages h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.skills {
+    margin-left: -20px;
+    margin-bottom: 0px;
+}
+.skills li {
+    padding: 5px;
+}
